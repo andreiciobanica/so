@@ -1,0 +1,125 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG DIALOGEX 0, 0, 387, 152
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Iesire",ID_CANCEL,169,128,50,14
+    GROUPBOX        "Cursul valutar",IDC_STATIC,11,18,94,93
+    GROUPBOX        "Initial",IDC_STATIC,117,18,151,102
+    GROUPBOX        "Final",IDC_STATIC,280,18,94,93
+    CONTROL         "RON",IDC_SELECT_RON,"Button",BS_AUTORADIOBUTTON,129,63,31,10
+    CONTROL         "EUR",IDC_SELECT_EUR,"Button",BS_AUTORADIOBUTTON,129,79,29,10
+    CONTROL         "USD",IDC_SELECT_USD,"Button",BS_AUTORADIOBUTTON,129,96,29,10
+    EDITTEXT        IDC_FINAL_RON,288,37,60,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_FINAL_EUR,288,61,60,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_FINAL_USD,288,85,60,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "RON",IDC_STATIC,350,40,16,8
+    LTEXT           "EUR",IDC_STATIC,350,64,14,8
+    LTEXT           "USD",IDC_STATIC,350,88,14,8
+    EDITTEXT        IDC_SUMA,156,36,102,14,ES_AUTOHSCROLL
+    LTEXT           "Suma: ",IDC_STATIC,130,39,22,8
+    PUSHBUTTON      "Converteste",ID_CONVERT,175,94,83,14
+    PUSHBUTTON      "Schimba cursul",ID_CURS,27,90,60,14
+    EDITTEXT        IDC_CURS_EUR,43,38,48,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_CURS_USD,43,64,48,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "EUR",IDC_STATIC,24,41,14,8
+    LTEXT           "USD",IDC_STATIC,24,67,14,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 380
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 145
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
